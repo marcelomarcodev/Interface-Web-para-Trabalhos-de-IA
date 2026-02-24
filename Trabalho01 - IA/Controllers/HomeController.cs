@@ -14,6 +14,28 @@ public class HomeController : Controller
         [-1, -1]
     ];
 
+    private static readonly int[][] LetterAMatrix =
+    [
+        [0, 0, 1, 1, 1, 0, 0],
+        [0, 1, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1]
+    ];
+
+    private static readonly int[][] LetterBMatrix =
+    [
+        [1, 1, 1, 1, 1, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 1, 1, 1, 1, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 1, 1, 1, 1, 0, 0]
+    ];
+
     public IActionResult Index()
     {
         return View();
@@ -80,15 +102,14 @@ public class HomeController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Trabalho2(Work2ViewModel model)
     {
-        model.GateNames = LogicGateDefinition.GetDefaultGates().Select(gate => gate.Name).ToList();
+        PopulateWork2StaticData(model, model.SelectedGate);
 
         if (!ModelState.IsValid)
         {
             return View(model);
         }
 
-        var gate = LogicGateDefinition.GetDefaultGates()
-            .FirstOrDefault(item => item.Name.Equals(model.SelectedGate, StringComparison.OrdinalIgnoreCase));
+        var gate = GetGateByName(model.SelectedGate);
 
         if (gate is null)
         {
@@ -172,10 +193,31 @@ public class HomeController : Controller
 
     private static Work2ViewModel BuildDefaultWork2Model()
     {
-        return new Work2ViewModel
-        {
-            GateNames = LogicGateDefinition.GetDefaultGates().Select(gate => gate.Name).ToList()
-        };
+        var model = new Work2ViewModel();
+        PopulateWork2StaticData(model, model.SelectedGate);
+        return model;
+    }
+
+    private static void PopulateWork2StaticData(Work2ViewModel model, string selectedGate)
+    {
+        var gate = GetGateByName(selectedGate) ?? LogicGateDefinition.GetDefaultGates()[0];
+
+        model.GateNames = LogicGateDefinition.GetDefaultGates().Select(item => item.Name).ToList();
+        model.MatrixA = LetterAMatrix.Select(row => row.ToArray()).ToList();
+        model.MatrixB = LetterBMatrix.Select(row => row.ToArray()).ToList();
+        model.TruthTable =
+        [
+            new TruthTableRow { X1 = 1, X2 = 1, Target = gate.Targets[0] },
+            new TruthTableRow { X1 = 1, X2 = -1, Target = gate.Targets[1] },
+            new TruthTableRow { X1 = -1, X2 = 1, Target = gate.Targets[2] },
+            new TruthTableRow { X1 = -1, X2 = -1, Target = gate.Targets[3] }
+        ];
+    }
+
+    private static LogicGateDefinition? GetGateByName(string gateName)
+    {
+        return LogicGateDefinition.GetDefaultGates()
+            .FirstOrDefault(item => item.Name.Equals(gateName, StringComparison.OrdinalIgnoreCase));
     }
 
     private static int Predict(IReadOnlyList<int> input, IReadOnlyList<float> weights, float bias)
@@ -192,30 +234,8 @@ public class HomeController : Controller
 
     private static List<(string Name, int[] Vector)> BuildLetterPairs()
     {
-        var letterA = new int[][]
-        {
-            [0,0,1,1,1,0,0],
-            [0,1,0,0,0,1,0],
-            [1,0,0,0,0,0,1],
-            [1,1,1,1,1,1,1],
-            [1,0,0,0,0,0,1],
-            [1,0,0,0,0,0,1],
-            [1,0,0,0,0,0,1]
-        };
-
-        var letterB = new int[][]
-        {
-            [1,1,1,1,1,0,0],
-            [1,0,0,0,0,1,0],
-            [1,0,0,0,0,1,0],
-            [1,1,1,1,1,0,0],
-            [1,0,0,0,0,1,0],
-            [1,0,0,0,0,1,0],
-            [1,1,1,1,1,0,0]
-        };
-
-        var a = FlattenToBipolar(letterA);
-        var b = FlattenToBipolar(letterB);
+        var a = FlattenToBipolar(LetterAMatrix);
+        var b = FlattenToBipolar(LetterBMatrix);
 
         return
         [

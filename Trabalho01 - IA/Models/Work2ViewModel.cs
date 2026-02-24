@@ -10,6 +10,13 @@ public sealed class PerceptronSampleResult
     public bool IsCorrect => Target == Prediction;
 }
 
+public sealed class TruthTableRow
+{
+    public int X1 { get; init; }
+    public int X2 { get; init; }
+    public int Target { get; init; }
+}
+
 public sealed class Work2ViewModel
 {
     [Required]
@@ -22,6 +29,10 @@ public sealed class Work2ViewModel
     public float LearningRate { get; set; } = 1f;
 
     public IReadOnlyList<string> GateNames { get; set; } = [];
+    public IReadOnlyList<int[]> MatrixA { get; set; } = [];
+    public IReadOnlyList<int[]> MatrixB { get; set; } = [];
+    public IReadOnlyList<TruthTableRow> TruthTable { get; set; } = [];
+
     public bool HasResult { get; set; }
     public bool Converged { get; set; }
     public int EpochsUsed { get; set; }

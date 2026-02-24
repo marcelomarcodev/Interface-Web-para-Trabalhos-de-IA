@@ -39,6 +39,69 @@
     </form>
 </section>
 
+<section class="result-card">
+    <h2>Matrizes 7x7 usadas</h2>
+
+    <div class="matrix-wrap">
+        <div>
+            <h3>Letra A</h3>
+            <table class="table table-bordered matrix-table">
+                <tbody>
+                @foreach (var row in Model.MatrixA)
+                {
+                    <tr>
+                        @foreach (var value in row)
+                        {
+                            <td>@value</td>
+                        }
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h3>Letra B</h3>
+            <table class="table table-bordered matrix-table">
+                <tbody>
+                @foreach (var row in Model.MatrixB)
+                {
+                    <tr>
+                        @foreach (var value in row)
+                        {
+                            <td>@value</td>
+                        }
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="result-card">
+    <h2>Tabela-verdade da porta @Model.SelectedGate</h2>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>X1</th>
+            <th>X2</th>
+            <th>Saída Esperada (Y)</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var row in Model.TruthTable)
+        {
+            <tr>
+                <td>@row.X1</td>
+                <td>@row.X2</td>
+                <td>@row.Target</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</section>
+
 @if (Model.HasResult)
 {
     <section class="result-card">

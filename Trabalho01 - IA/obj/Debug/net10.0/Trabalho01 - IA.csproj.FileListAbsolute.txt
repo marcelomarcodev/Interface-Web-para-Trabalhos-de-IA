@@ -94,4 +94,5 @@
 /home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.pdb
 /home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.genruntimeconfig.cache
 /home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/ref/Trabalho01 - IA.dll
-/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/a8jjg0cva9-{0}-x39k91l5iy-x39k91l5iy.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.sourcelink.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/a8jjg0cva9-{0}-sihfndstwq-sihfndstwq.gz
