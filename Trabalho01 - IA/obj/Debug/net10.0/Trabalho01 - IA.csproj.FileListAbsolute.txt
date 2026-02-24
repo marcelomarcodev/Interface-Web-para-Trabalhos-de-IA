@@ -1,0 +1,97 @@
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/appsettings.Development.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/appsettings.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.staticwebassets.runtime.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.staticwebassets.endpoints.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.deps.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.runtimeconfig.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.dll
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/bin/Debug/net10.0/Trabalho01 - IA.pdb
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.AssemblyInfoInputs.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.AssemblyInfo.cs
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.csproj.CoreCompileInputs.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.MvcApplicationPartsAssemblyInfo.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.RazorAssemblyInfo.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.RazorAssemblyInfo.cs
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/scopedcss/bundle/Trabalho01 - IA.styles.css
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/scopedcss/projectbundle/Trabalho01 - IA.bundle.scp.css
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/hf4awa33nq-{0}-61n19gt1b8-61n19gt1b8.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/n14y6r1207-{0}-fr7q2aak1r-fr7q2aak1r.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/rkn25scepg-{0}-bqjiyaj88i-bqjiyaj88i.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/jc96t60vlh-{0}-c2jlpeoesf-c2jlpeoesf.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/allhzfk38n-{0}-erw9l3u2r3-erw9l3u2r3.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/m90g2e7ber-{0}-aexeepp0ev-aexeepp0ev.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/mijpzb7t20-{0}-d7shbmvgxk-d7shbmvgxk.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/u9yy8t97b8-{0}-ausgxo2sd3-ausgxo2sd3.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ytakoig6du-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/oiskhdnso2-{0}-cosvhxvwiu-cosvhxvwiu.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/tqi7ck2q5j-{0}-ub07r2b239-ub07r2b239.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/2jcklhffth-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/42ieo2yb6e-{0}-b7pk76d08c-b7pk76d08c.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/532ioilh65-{0}-fsbi9cje9m-fsbi9cje9m.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/mj6kg5j8oo-{0}-rzd6atqjts-rzd6atqjts.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/o53j3qz6jj-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/pczcnhxxes-{0}-dxx9fxp4il-dxx9fxp4il.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/68yjzmsrm2-{0}-jd9uben2k1-jd9uben2k1.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/qlmtkt4gcc-{0}-khv3u5hwcm-khv3u5hwcm.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/4718i51w55-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/p1wkd7k28h-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/lkg1s3zrrl-{0}-c2oey78nd0-c2oey78nd0.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/75rqu68kqz-{0}-tdbxkamptv-tdbxkamptv.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/sm1e8xsfwp-{0}-j5mq2jizvt-j5mq2jizvt.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/uq38bhny7o-{0}-06098lyss8-06098lyss8.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/l3u9ghbsko-{0}-nvvlpmu67g-nvvlpmu67g.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/544cw6jcsz-{0}-s35ty4nyc5-s35ty4nyc5.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/em51q9v2pd-{0}-pj5nd1wqec-pj5nd1wqec.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/zjr91xi7zv-{0}-46ein0sx1k-46ein0sx1k.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/asrczx1fcx-{0}-v0zj4ognzu-v0zj4ognzu.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/9t8qdbevml-{0}-37tfw0ft22-37tfw0ft22.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/nllkgi0vsl-{0}-hrwsygsryq-hrwsygsryq.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/x1ph0jh2up-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/stf67wlx73-{0}-ft3s53vfgj-ft3s53vfgj.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/q70h6kyz4x-{0}-6cfz1n2cew-6cfz1n2cew.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/lv9xs5ivq1-{0}-6pdc2jztkx-6pdc2jztkx.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/827tecjt1p-{0}-493y06b0oq-493y06b0oq.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ugxd1i32g1-{0}-iovd86k7lj-iovd86k7lj.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/45ivj50d7q-{0}-vr1egmr9el-vr1egmr9el.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ha7koruodr-{0}-kbrnm935zg-kbrnm935zg.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/34epmhwyyr-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ej8lclbj1p-{0}-y7v9cxd14o-y7v9cxd14o.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/kfqsn2z4s1-{0}-notf2xhcfb-notf2xhcfb.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/me2nxxb17g-{0}-h1s4sie4z3-h1s4sie4z3.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/m5r2bt2z7g-{0}-63fj8s7r0e-63fj8s7r0e.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/g6y0w2a82y-{0}-0j3bgjxly4-0j3bgjxly4.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/jlyj5ftco5-{0}-47otxtyo56-47otxtyo56.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/7q7d9vw0t6-{0}-4v8eqarkd7-4v8eqarkd7.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ipgkx613ki-{0}-l3n5xuwxn8-l3n5xuwxn8.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/j77x51pg7w-{0}-ilo7uva0vt-ilo7uva0vt.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/wodg7fm4tb-{0}-qlccset4i1-qlccset4i1.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/jov8lsfy2a-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/zhybepo5yz-{0}-ag7o75518u-ag7o75518u.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/54o9eng1uk-{0}-xzw0cte36n-xzw0cte36n.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/rdfqn9vbgc-{0}-0i3buxo5is-0i3buxo5is.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/fz57dpeebz-{0}-o1o13a6vjx-o1o13a6vjx.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/l5z6i08eim-{0}-ttgo8qnofa-ttgo8qnofa.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ygfml8fy4j-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/6aecmkmq52-{0}-muycvpuwrr-muycvpuwrr.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/tguba53or2-{0}-87fc7y1x7t-87fc7y1x7t.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/jpwb5fl44g-{0}-jfsiqqwiad-jfsiqqwiad.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/0zemgb7wj6-{0}-lrqzdenz89-lrqzdenz89.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/ied09z8mdt-{0}-lrqzdenz89-lrqzdenz89.gz
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/staticwebassets.build.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/staticwebassets.development.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/swae.build.ex.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.dll
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/refint/Trabalho01 - IA.dll
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.pdb
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/Trabalho01 - IA.genruntimeconfig.cache
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/ref/Trabalho01 - IA.dll
+/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/Debug/net10.0/compressed/a8jjg0cva9-{0}-x39k91l5iy-x39k91l5iy.gz

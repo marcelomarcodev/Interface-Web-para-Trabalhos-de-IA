@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/Trabalho01 - IA.csproj": {}
+  },
+  "projects": {
+    "/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/Trabalho01 - IA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/Trabalho01 - IA.csproj",
+        "projectName": "Trabalho01 - IA",
+        "projectPath": "/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/Trabalho01 - IA.csproj",
+        "packagesPath": "/home/marcelom/.nuget/packages/",
+        "outputPath": "/home/marcelom/RiderProjects/Trabalho01 - IA/Trabalho01 - IA/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marcelom/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/marcelom/.dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@model Trabalho01___IA.Models.Work1ViewModel
+@{
+    ViewData["Title"] = "Trabalho 01 - Hebb";
+}
+
+<section>
+    <h1>Trabalho 01 - Regra de Hebb</h1>
+    <p>Entradas bipolares: [1,1], [1,-1], [-1,1], [-1,-1]</p>
+</section>
+
+@foreach (var gate in Model.GateResults)
+{
+    <article class="result-card">
+        <h2>Porta @gate.GateName</h2>
+        <p><strong>Pesos finais:</strong> W1 = @gate.W1.ToString("F1"), W2 = @gate.W2.ToString("F1"), Bias = @gate.Bias.ToString("F1")</p>
+        <p><strong>Resultado:</strong> @gate.CorrectCount/4 acertos</p>
+        <p class="status @(gate.SolvedLinearly ? "ok" : "fail")">
+            @(gate.SolvedLinearly ? "Status: Resolvido linearmente." : "Status: FALHOU (não linearmente separável).")
+        </p>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Entrada</th>
+                <th>Alvo</th>
+                <th>Predição</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var sample in gate.Samples)
+            {
+                <tr>
+                    <td>[@sample.X1, @sample.X2]</td>
+                    <td>@sample.Target</td>
+                    <td>@sample.Prediction</td>
+                    <td class="@(sample.IsCorrect ? "ok" : "fail")">@(sample.IsCorrect ? "OK" : "ERRO")</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </article>
+}

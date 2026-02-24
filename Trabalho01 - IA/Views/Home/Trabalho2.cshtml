@@ -1,0 +1,84 @@
+@model Trabalho01___IA.Models.Work2ViewModel
+@{
+    ViewData["Title"] = "Trabalho 02 - Perceptron";
+}
+
+<section>
+    <h1>Trabalho 02 - Perceptron com Letras 7x7 (A e B)</h1>
+    <p>As entradas são pares de letras: A+A, A+B, B+A e B+B. Cada letra é achatada em vetor bipolar e treinada com Perceptron.</p>
+</section>
+
+<section class="result-card">
+    <form asp-action="Trabalho2" method="post" class="form-grid">
+        @Html.AntiForgeryToken()
+
+        <div>
+            <label asp-for="SelectedGate" class="form-label">Porta lógica</label>
+            <select asp-for="SelectedGate" class="form-select">
+                @foreach (var gateName in Model.GateNames)
+                {
+                    <option value="@gateName">@gateName</option>
+                }
+            </select>
+            <span asp-validation-for="SelectedGate" class="text-danger"></span>
+        </div>
+
+        <div>
+            <label asp-for="LearningRate" class="form-label">Taxa de aprendizado</label>
+            <input asp-for="LearningRate" class="form-control" type="number" step="0.1" min="0.01" max="10"/>
+            <span asp-validation-for="LearningRate" class="text-danger"></span>
+        </div>
+
+        <div>
+            <label asp-for="MaxEpochs" class="form-label">Máximo de épocas</label>
+            <input asp-for="MaxEpochs" class="form-control" type="number" min="1" max="500"/>
+            <span asp-validation-for="MaxEpochs" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Treinar Perceptron</button>
+    </form>
+</section>
+
+@if (Model.HasResult)
+{
+    <section class="result-card">
+        <h2>Resultado para @Model.SelectedGate</h2>
+        <p><strong>Bias final:</strong> @Model.Bias.ToString("F2")</p>
+        <p><strong>Épocas usadas:</strong> @Model.EpochsUsed</p>
+        <p class="status @(Model.Converged ? "ok" : "fail")">
+            @(Model.Converged ? "Convergiu com 100% de acerto." : "Não convergiu totalmente (caso clássico: XOR).")
+        </p>
+        <p><strong>Acurácia no teste:</strong> @Model.CorrectCount/4</p>
+
+        <details>
+            <summary>Mostrar pesos finais (@Model.Weights.Count valores)</summary>
+            <pre class="weights">@string.Join(", ", Model.Weights.Select((w, i) => $"w{i + 1}={w:F1}"))</pre>
+        </details>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Par de letras</th>
+                <th>Alvo</th>
+                <th>Predição</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var sample in Model.Samples)
+            {
+                <tr>
+                    <td>@sample.PairName</td>
+                    <td>@sample.Target</td>
+                    <td>@sample.Prediction</td>
+                    <td class="@(sample.IsCorrect ? "ok" : "fail")">@(sample.IsCorrect ? "OK" : "ERRO")</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </section>
+}
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

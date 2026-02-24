@@ -1,0 +1,96 @@
+:root {
+    --bg: #f2f4f7;
+    --surface: #ffffff;
+    --brand: #0b3c5d;
+    --brand-strong: #06263c;
+    --ok: #1b7f3b;
+    --fail: #b42318;
+    --text: #101828;
+}
+
+html {
+    font-size: 16px;
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(circle at top right, #dce9f5 0%, var(--bg) 55%);
+    color: var(--text);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main-nav {
+    background: linear-gradient(120deg, var(--brand), var(--brand-strong));
+}
+
+.hero {
+    background: linear-gradient(140deg, #0f466d 0%, #0b3c5d 55%, #0d5d86 100%);
+    border-radius: 20px;
+    color: #fff;
+    padding: 3rem 2rem;
+    box-shadow: 0 12px 30px rgba(11, 60, 93, 0.2);
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.result-card {
+    background: var(--surface);
+    border-radius: 14px;
+    box-shadow: 0 10px 20px rgba(16, 24, 40, 0.08);
+    margin-top: 1rem;
+    padding: 1.25rem;
+}
+
+.form-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.status {
+    font-weight: 700;
+}
+
+.ok {
+    color: var(--ok);
+}
+
+.fail {
+    color: var(--fail);
+}
+
+.weights {
+    background: #f8fafc;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    max-height: 220px;
+    overflow: auto;
+    padding: 0.75rem;
+    white-space: pre-wrap;
+}
+
+.footer {
+    border-top: 1px solid #d0d5dd;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1.2rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+}
